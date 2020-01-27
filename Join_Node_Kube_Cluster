@@ -1,3 +1,12 @@
+
+Reference:
+
+https://www.youtube.com/watch?v=PrTmMnufxeo
+
+
+
+
+
 sudo kubeadm join 10.120.91.80:6443 --token p5tdin.352slz06nt4b7uq0 --discovery-token-ca-cert-hash sha256:342ca855a9a35b3f6db12d89d240d0d579fad65720bac7bb68c9634cb8ed409d
 
 
@@ -20,3 +29,4 @@ The outpted discovery-token-ca-cert-hash value
 Once the Token is created join the new node name kube-minion2 using the token and tokencacert value
 
 root@kube-minion2:$  kubeadm join 172.16.9.12:6443 --token yy8zho.n3w5inti3twy7v0y --discovery-token-ca-cert-hash sha256:30e3baf5cb4474b23d5d2500836f6b4da19fa629b64339b1301d3e04892e08aa
+
